@@ -1,7 +1,9 @@
 return {
-    __version = "3.1.2",
+    __version = "3.5",
     __log = {
-        "[-] fixed gc tables",
-        "[+] Added disassemble by -- by lovrewe"
+        "[+] fixed filtering",
+        "[+] added new decompiler if it doesnt exist",
+        "[+] better stability",
+        "[/] readded extra scripts",
     }
 }
