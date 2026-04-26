@@ -1,10 +1,11 @@
 return {
-    __version = "3.6",
+    __version = "3.7",
     __log = {
-        "[+] fixed filtering",
-        "[+] added new decompiler if it doesnt exist",
-        "[+] better stability",
-        "[/] readded extra scripts",
-        "[+] added function tagging",
+        "[/] Fixed actor being nil inside FunctionInfo actor resolver.",
+        "[+] Added safe Config fallback in GenSS to prevent nil indexing.",
+        "[/] Fixed FFICopy calls using wrong argument order.",
+        "[/] Fixed CollectedTables stacking and returned collectedTables properly.",
+        "[+] Added safer debug.getinfo/constants/upvalues handling.",
+        "[+] Added minor safety guards without changing behavior."
     }
 }
